@@ -46,7 +46,6 @@
 
 /* Main Section */
 .main {
-  background-color: aqua;
   margin-top: 60px;
   display: grid;
   grid-template-columns: 40% 60%;
@@ -70,4 +69,16 @@
 .main-section1-nav-div-active {
   display: flex;
   gap: 1.5vh;
+}
+.main-section1-nav-div-active p {
+  font-size: 2.5vh;
+}
+
+.main-section1-nav-div {
+  display: flex;
+  gap: 1.5vh;
+  color: #999595;
+}
+.main-section1-nav-div p {
+  font-size: 2.5vh;
 }
