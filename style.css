@@ -47,12 +47,12 @@
 /* Main Section */
 .main {
   margin-top: 60px;
-  display: grid;
-  grid-template-columns: 40% 60%;
+  display: flex;
 }
 
 .main-section1 {
   padding-left: 11vh;
+  width: 15%;
 }
 .main-section1-text {
   padding-left: 2vh;
@@ -81,4 +81,49 @@
 }
 .main-section1-nav-div p {
   font-size: 2.5vh;
+}
+
+.icon5 {
+  width: 2.5vh;
+}
+.main-section1-nav-div-logout {
+  display: flex;
+  gap: 1vh;
+  color: red;
+  padding-top: 20vh;
+}
+.main-section1-nav-div-logout p {
+  font-size: 2vh;
+}
+
+.vertical {
+  width: 5px;
+  background-color: red;
+  position: absolute; /* Position absolutely within the .main-section1 */
+  top: 0; /* Position at the top of .main-section1 */
+  bottom: 0; /* Extend to the bottom of .main-section1 */
+  margin-left: 28.5vh;
+  margin-top: 24vh;
+  z-index: 2;
+  height: 8vh;
+}
+
+.vertical-hr {
+  background-color: #d6d0d0;
+  margin: 0 10px;
+  height: 90vh;
+  margin-top: -5.8vh;
+}
+
+/* .vertical-hr-sub {
+  background-color: red;
+  color: red;
+  width: 3px;
+  height: 2vh;
+  margin-left: 11vh;
+  position: relative;
+} */
+
+.main-section2 {
+  width: 85%;
 }
