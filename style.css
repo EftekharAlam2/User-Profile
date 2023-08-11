@@ -191,3 +191,65 @@
   border-color: rgb(230, 224, 224);
   margin-top: -1vh;
 }
+
+@media screen and (max-width: 576px) {
+  .main {
+    margin-top: 6px;
+  }
+
+  .main-section1 {
+    padding-left: 1vh;
+    width: 15%;
+  }
+  .main-section1-text {
+    padding-left: 2vh;
+    font-size: 2vh;
+  }
+
+  .icon4 {
+    width: 1.5vh;
+  }
+
+  .main-section1-nav {
+    margin-top: 3vh;
+  }
+
+  .main-section1-nav-div-active {
+    gap: 2vh;
+  }
+  .main-section1-nav-div-active p {
+    font-size: 1vh;
+  }
+
+  .main-section1-nav-div {
+    gap: 1.5vh;
+  }
+  .main-section1-nav-div p {
+    font-size: 1vh;
+  }
+
+  .icon5 {
+    width: 2vh;
+  }
+  .main-section1-nav-div-logout {
+    gap: 1vh;
+    padding-top: 15vh;
+  }
+  .main-section1-nav-div-logout p {
+    font-size: 1vh;
+  }
+
+  .vertical {
+    width: 2px;
+    background-color: red;
+    margin-left: 9vh;
+    margin-top: 23.5vh;
+    height: 3vh;
+  }
+
+  .vertical-hr {
+    margin: 0 20px;
+    height: 60vh;
+    margin-top: -2vh;
+  }
+}
