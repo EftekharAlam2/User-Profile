@@ -237,7 +237,7 @@
   }
   .main-section1-text {
     padding-left: 2vh;
-    font-size: 2vh;
+    font-size: 12px;
   }
 
   .icon4 {
@@ -275,21 +275,20 @@
 
   .vertical {
     width: 2px;
-    background-color: red;
-    margin-left: 9vh;
-    margin-top: 23.5vh;
+    margin-left: 8.9vh;
+    margin-top: 15vh;
     height: 3vh;
   }
 
   .vertical-hr {
     margin: 0 20px;
-    height: 60vh;
+    height: 47vh;
     margin-top: -2vh;
   }
 
   .main-section2 {
     width: 85%;
-    margin: 8vh 0;
+    margin: 8vh 2.5vh;
   }
   .main-section2-part1 {
     padding-left: 1vh;
@@ -348,11 +347,15 @@
     margin-top: 4vh;
   }
   .main-section2-part3 button {
-    padding: 10px 40px;
-    font-size: 10px;
+    padding: 8px 25px;
+    font-size: 9px;
     border-radius: 2vh;
     border-width: 1px;
     font-weight: 1px;
     margin-top: -1vh;
+  }
+
+  .notification-responsive {
+    margin-left: 14px;
   }
 }
