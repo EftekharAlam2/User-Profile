@@ -233,7 +233,7 @@
   }
   .main-section1-nav-div-logout {
     gap: 1vh;
-    padding-top: 15vh;
+    padding-top: 13vh;
   }
   .main-section1-nav-div-logout p {
     font-size: 1vh;
@@ -251,5 +251,74 @@
     margin: 0 20px;
     height: 60vh;
     margin-top: -2vh;
+  }
+
+  .main-section2 {
+    width: 85%;
+    margin: 8vh 0;
+  }
+  .main-section2-part1 {
+    padding-left: 1vh;
+    gap: 5vh;
+  }
+  .main-section2-part1 img {
+    border-radius: 50%;
+    width: 5vh;
+    height: 5vh;
+  }
+  .icon6 {
+    width: 6px;
+    border-radius: 50%;
+    height: 100%;
+    padding: 5px;
+    margin-top: 3.5vh;
+    margin-left: -7vh;
+  }
+  .p-1 {
+    font-size: 1.5vh;
+    margin-top: 1.5vh;
+    margin-left: -2.5vh;
+  }
+  .p-2 {
+    font-size: 1vh;
+    margin-top: -1.5vh;
+    margin-left: -2.5vh;
+  }
+
+  .main-section2-part2 {
+    padding-left: 2vh;
+    padding-top: 1vh;
+    gap: 5px;
+  }
+  .main-section2-part2-form {
+    gap: 3vh;
+  }
+  .main-section2-part2 p {
+    font-size: 7px;
+    padding-left: 1vh;
+  }
+  .main-section2-part2 button {
+    padding: 5px 20px;
+    font-size: 8px;
+    border-radius: 1vh;
+    border-width: 1px;
+    font-weight: 1px;
+    border-color: rgb(230, 224, 224);
+    margin-top: -1vh;
+  }
+  .button-extra {
+    background-color: white;
+  }
+
+  .main-section2-part3 {
+    margin-top: 4vh;
+  }
+  .main-section2-part3 button {
+    padding: 10px 40px;
+    font-size: 10px;
+    border-radius: 2vh;
+    border-width: 1px;
+    font-weight: 1px;
+    margin-top: -1vh;
   }
 }
